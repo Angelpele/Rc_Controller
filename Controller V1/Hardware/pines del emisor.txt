@@ -1,0 +1,22 @@
+RF24 radio(9, 10)
+///GND - GND                   
+//VCC - VCC
+//SDA - Pin A4
+//SCL - Pin A5
+
+PIN_VRx A0
+PIN_VRy A1
+PIN_SW A2
+PIN_VRx2 A7
+PIN_VRy2 A6
+PIN_SW2 A3
+
+button = D8
+
+LCD:
+rs = 3
+en = 2
+d4 = 4
+d5 = 5
+d6 = 6
+d7 = 7

@@ -1,0 +1,45 @@
+Hay que disminuir el tiempo de delay a 100 ms
+tambien los canales de comunicacion son importantes y especificos
+seguir con el codigo original del ejemplo de prueba
+funciona en pines 9 y 10
+mega emisor en usb tipo c
+
+uno receptor en usb normal
+
+
+la programación de el emisor y receptor func es correcta y al subirla permite que se comuniquen incluso indicándolo con la luz de la placa. 
+Al desconectar un cable no se observa nada excepto que esté el serial abierto. En ese caso salta el aviso en los dos por lo que se comunican 
+al no funcionar el código. 
+- Descubrir cómo lograr que funcione sin necesidad de serial
+
+en caso de error con el serial de la nano es necesario conectarlo a un pin usb normal y no al tipo c
+ya que no tiene corriente suficiente para poder realizar la comunicación necesaria.
+
+Al conectar la uno al puerto c y la nano al puerto normal COM6 son capaces de comunicarse siendo la uno receptor 
+con el programa 2 func y la nano emisor con el programa 2 func. Falta comprobar si se pueden enviar datos.
+
+Importante reducir tiempo de delay del botón a 10 ms para reducir error producido por retraso
+Imprimir en serial ESTADObut
+data emisor como detector de pruebas en serial para el emisor.
+
+como no logro conectar los datos de uno con otro, procedo a combinar el func con el arhivo rc plane para lograr la conexión y la transmisión de datos.
+
+
+Ya funciona al restaruar los ajustes de antena del código func y juntarlos con la línea de código base de start listening struct pack
+Mezcla de código rc plane junto a func
+
+En el caso de no lograr conexión mediante serial y obtener datos establecidos para la desconexión procedemos con lo siguiente:
+
+IMPORTANTE CONECTAR ANTES EL EMISOR QUE EL RECEPTOR
+
+CONECTAMOS EL EMISOR A LA FUENTE Y POSTERIORMENTE EL RECEPTOR A LA CORRIENTE O BATERÍA
+
+Luces:
+
+POW significa encendido
+L es el pin que puedes cambiar el estado (13)
+Es decir led incorporada
+
+Tx es necesario que esté encendido para poder transmitir al ordenador datos desde la nano
+
+Rx es el pin de recibir datos
