@@ -27,4 +27,8 @@ The enclosure was 3d printed in PLA and a methacrylate protector was installed. 
 | **Improved Grip**     | A better ergonomic design for comfortable handling during use. |
 | **Aesthetic Enhancements** | A visually appealing design to make the controller look more attractive. |
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3f5d57cd-32ff-4df9-a605-5e253e3d47b6" height="300px" />
+</div>
+
 ---
